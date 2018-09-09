@@ -39,7 +39,7 @@
                   <mainClass>ar.edu.ucc.App</mainClass>
                 </transformer>
               </transformers>
-              <minimizeJar>false</minimizeJar>
+              <minimizeJar>true</minimizeJar>
             </configuration>
           </execution>
         </executions>
