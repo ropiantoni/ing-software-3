@@ -1,0 +1,9 @@
+version: 1.0.{build}
+build_script:
+- cmd: >-
+    cd trabajo-practico-04/java-docker
+
+    mvn clean package
+artifacts:
+- path: trabajo-practico-04\java-docker\target\ejemplo.jar
+  name: Salida del JAR
